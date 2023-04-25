@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #292821;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* width: 50%; */
+  /* margin: auto; */
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 30% solid rgb(236, 232, 232);
+  border-radius: 50%;
+}
+
+.game-over {
+  background-color: red;
+  background-image: url(images/chaos.webp);
+  opacity: 0.8;
+}
+
+.red {
+
+  background-image: url("images/Prisonmike.webp");
+ 
+  
+}
+
+.green {
+  background-image: url("images/boom.jpg");
+ 
+}
+
+.blue {
+  background-image: url("images/god.jpeg");
+}
+
+.yellow {
+  background-image: url("images/no.jpg");
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
